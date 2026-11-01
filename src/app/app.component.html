@@ -4,6 +4,7 @@
   <hr />
 
   <app-auth />
-
-  <p appAuth="admin">Only admins should see</p>
+  <ng-template appAuth="admin">
+    <p>Only admins should see</p>
+  </ng-template>
 </main>
